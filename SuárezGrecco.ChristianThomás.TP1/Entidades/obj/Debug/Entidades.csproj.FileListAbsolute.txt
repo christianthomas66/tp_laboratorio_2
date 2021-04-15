@@ -4,3 +4,9 @@ C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás\Entidades\bin\Deb
 C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás\Entidades\bin\Debug\Entidades.pdb
 C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás\Entidades\obj\Debug\Entidades.dll
 C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.TP1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.TP1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.TP1\Entidades\obj\Debug\Entidades.dll
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.TP1\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.TP1\Entidades\bin\Debug\Entidades.dll
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.TP1\Entidades\bin\Debug\Entidades.pdb

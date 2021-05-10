@@ -9,22 +9,35 @@ namespace Entidades
     /// <summary>
     /// No podrá tener clases heredadas.
     /// </summary>
-    public class Taller
+    public sealed class Taller
     {
+        #region Atributos
         private List<Vehiculo> vehiculos;
         private int espacioDisponible;
+        #endregion
 
-
+        #region Enumerados
+        /// <summary>
+        /// Enumerado del tipo de vehiculo.
+        /// </summary>
         public enum ETipo
         {
             Ciclomotor, Sedan, SUV, Todos
         }
+        #endregion
 
         #region "Constructores"
+        /// <summary>
+        /// Construtor por defecto que inicializa la lista de vehiculos.
+        /// </summary>
         private Taller()
         {
             this.vehiculos = new List<Vehiculo>();
         }
+        /// <summary>
+        /// Constructor sobrecargado parametrizado que llama al constructor por defecto. 
+        /// </summary>
+        /// <param name="espacioDisponible"></param>
         public Taller(int espacioDisponible) : this()
         {
             this.espacioDisponible = espacioDisponible;

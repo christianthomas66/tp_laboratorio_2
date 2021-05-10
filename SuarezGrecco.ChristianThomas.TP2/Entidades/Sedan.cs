@@ -9,13 +9,21 @@ namespace Entidades
 {
     public class Sedan : Vehiculo
     {
+        #region Enumerados
+        /// <summary>
+        /// Enumerado de Tipo 
+        /// </summary>
         public enum ETipo 
         { 
             CuatroPuertas, CincoPuertas
         }
+        #endregion
 
+        #region Atributo
         ETipo tipo;
+        #endregion
 
+        #region Constructores
         /// <summary>
         /// Por defecto, TIPO será CuatroPuertas
         /// </summary>
@@ -31,7 +39,9 @@ namespace Entidades
         {
             this.tipo = tipo;
         }
+        #endregion
 
+        #region Propiedad
         /// <summary>
         /// Sedan son 'Mediano'
         /// </summary>
@@ -42,7 +52,13 @@ namespace Entidades
                 return ETamanio.Mediano;
             }
         }
+        #endregion
 
+        #region Método
+        /// <summary>
+        /// Sobreescritura del metodo Mostrar, muestra todos los datos de vehiculo y sedan
+        /// </summary>
+        /// <returns>string con datos de vehiculo y sedan</returns>
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -55,5 +71,6 @@ namespace Entidades
 
             return sb.ToString();
         }
+        #endregion
     }
 }

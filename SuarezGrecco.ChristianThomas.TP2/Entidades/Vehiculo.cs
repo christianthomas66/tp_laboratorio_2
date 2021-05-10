@@ -11,41 +11,67 @@ namespace Entidades
     /// </summary>
     public abstract class Vehiculo
     {
+        #region Enumerados
+        /// <summary>
+        /// Enumerados de Marca
+        /// </summary>
         public enum EMarca
         {
             Chevrolet, Ford, Renault, Toyota, BMW, Honda, HarleyDavidson
         }
+        /// <summary>
+        /// Enumerados de Tamaño de los vehiculos
+        /// </summary>
         public enum ETamanio
         {
             Chico, Mediano, Grande
         }
-        
+        #endregion
+
+        #region Atributos
         private EMarca marca;
         private string chasis;
         private ConsoleColor color;
+        #endregion
 
+        #region Propiedad
         /// <summary>
         /// ReadOnly: Retornará el tamaño
         /// </summary>
         protected abstract ETamanio Tamanio { get; }
+        #endregion
 
+        #region Constructor
         /// <summary>
-        /// Publica todos los datos del Vehiculo.
+        /// Constructor por parámetro
         /// </summary>
-        /// <returns></returns>
-
+        /// <param name="chasis"></param>
+        /// <param name="marca"></param>
+        /// <param name="color"></param>
         public Vehiculo(string chasis, EMarca marca, ConsoleColor color)
         {
             this.chasis = chasis;
             this.marca = marca;
             this.color = color;
         }
+        #endregion
 
+        #region Método
+        /// <summary>
+        /// Muestra todos los datos del Vehiculo.
+        /// </summary>
+        /// <returns>retorna datos del vehiculo</returns>
         public virtual string Mostrar()
         {
             return (string)this;
         }
+        #endregion
 
+        #region Sobrecargas
+        /// <summary>
+        /// Sobrecarga del operador explicito string que retorna un string con los datos del vehiculo como casteo
+        /// </summary>
+        /// <param name="p"></param>
         public static explicit operator string(Vehiculo p)
         {
             StringBuilder sb = new StringBuilder();
@@ -63,7 +89,7 @@ namespace Entidades
         /// </summary>
         /// <param name="v1"></param>
         /// <param name="v2"></param>
-        /// <returns></returns>
+        /// <returns>true si son iguales, false sino lo son</returns>
         public static bool operator ==(Vehiculo v1, Vehiculo v2)
         {
             bool retorno = false;
@@ -82,7 +108,6 @@ namespace Entidades
                     }
                 }
             }
-
             return retorno;
         }
         /// <summary>
@@ -95,5 +120,6 @@ namespace Entidades
         {
             return !(v1 == v2);
         }
+        #endregion
     }
 }

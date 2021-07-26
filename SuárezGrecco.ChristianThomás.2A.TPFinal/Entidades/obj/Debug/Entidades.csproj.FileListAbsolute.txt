@@ -27,3 +27,9 @@ C:\Users\Thomas PC\OneDrive\Desktop\SuárezGrecco.ChristianThomás.2A.TPFinal\En
 C:\Users\Thomas PC\OneDrive\Desktop\SuárezGrecco.ChristianThomás.2A.TPFinal\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Thomas PC\OneDrive\Desktop\SuárezGrecco.ChristianThomás.2A.TPFinal\Entidades\obj\Debug\Entidades.dll
 C:\Users\Thomas PC\OneDrive\Desktop\SuárezGrecco.ChristianThomás.2A.TPFinal\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.2A.TPFinal\Entidades\bin\Debug\Entidades.dll
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.2A.TPFinal\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.2A.TPFinal\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.2A.TPFinal\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.2A.TPFinal\Entidades\obj\Debug\Entidades.dll
+C:\Users\Thomas PC\OneDrive\Desktop\tp_laboratorio_2\SuárezGrecco.ChristianThomás.2A.TPFinal\Entidades\obj\Debug\Entidades.pdb

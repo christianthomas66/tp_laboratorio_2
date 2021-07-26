@@ -1,0 +1,14 @@
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\bin\Debug\Entidades.dll
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\bin\Debug\Entidades.pdb
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\obj\Debug\Formulario.csprojAssemblyReference.cache
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmBicis.resources
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmFábrica.resources
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\obj\Debug\Formulario.csproj.GenerateResource.cache
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\obj\Debug\Formulario.csproj.CoreCompileInputs.cache
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\obj\Debug\Formulario.csproj.CopyComplete
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Thomas PC\source\repos\SuárezGrecco.ChristianThomás.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

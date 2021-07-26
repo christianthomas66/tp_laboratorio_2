@@ -1,0 +1,10 @@
+C:\Users\Thomas PC\source\repos\SuarezGrecco.ChristianThomas.2A.TP2\TestConsola\bin\Debug\TestConsola.exe.config
+C:\Users\Thomas PC\source\repos\SuarezGrecco.ChristianThomas.2A.TP2\TestConsola\bin\Debug\TestConsola.exe
+C:\Users\Thomas PC\source\repos\SuarezGrecco.ChristianThomas.2A.TP2\TestConsola\bin\Debug\TestConsola.pdb
+C:\Users\Thomas PC\source\repos\SuarezGrecco.ChristianThomas.2A.TP2\TestConsola\bin\Debug\Entidades.dll
+C:\Users\Thomas PC\source\repos\SuarezGrecco.ChristianThomas.2A.TP2\TestConsola\bin\Debug\Entidades.pdb
+C:\Users\Thomas PC\source\repos\SuarezGrecco.ChristianThomas.2A.TP2\TestConsola\obj\Debug\TestConsola.csprojAssemblyReference.cache
+C:\Users\Thomas PC\source\repos\SuarezGrecco.ChristianThomas.2A.TP2\TestConsola\obj\Debug\TestConsola.csproj.CoreCompileInputs.cache
+C:\Users\Thomas PC\source\repos\SuarezGrecco.ChristianThomas.2A.TP2\TestConsola\obj\Debug\TestConsola.csproj.CopyComplete
+C:\Users\Thomas PC\source\repos\SuarezGrecco.ChristianThomas.2A.TP2\TestConsola\obj\Debug\TestConsola.exe
+C:\Users\Thomas PC\source\repos\SuarezGrecco.ChristianThomas.2A.TP2\TestConsola\obj\Debug\TestConsola.pdb

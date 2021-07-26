@@ -18,23 +18,14 @@ namespace WindowsFormsApp1
 {
     public partial class FrmBicis : Form
     {
-        private Bicicleta.TipoBici biciTipo;
-        private BiciMontaña bMontaña;
-        private BiciCarrera bCarrera;
-
-        private Fabrica<Bicicleta> miFabrica;
+        private Bicicleta.TipoBici biciTipo;        
+        private Fabrica<Bicicleta> miFabrica;        
         
-        private Fabrica<BiciCarrera> biciCarrera;       
-        private Fabrica<BiciMontaña> biciMontaña;
-
-
         private SqlConnection cn;
         private SqlDataAdapter da;
         private DataTable dt;
 
         private delegate void DeleagadoDeTexto(string texto);
-        //private delegate void EventHandler(object sender, EventArgs e);
-
         private Button boton;
         private TextBox txtBox1;
         private Thread hilo = null;
@@ -47,10 +38,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
 
             miFabrica = new Fabrica<Bicicleta>();
-
-            //biciMontaña = new Fabrica<BiciMontaña>();
-            //biciCarrera = new Fabrica<BiciCarrera>();
-
+            
             this.dt = new DataTable("BicisTable");
             this.da = new SqlDataAdapter();
             this.cn = new SqlConnection(Formularios.Properties.Settings.Default.ConexionBD);          
@@ -217,7 +205,7 @@ namespace WindowsFormsApp1
             return true;
         }
         /// <summary>
-        /// Evento que hace la conexion y llama al metodo TraerDatos desde el SQL Server
+        /// Evento que llama al metodo TraerDatos ya antes guardados del form desde el SQL Server
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -229,7 +217,7 @@ namespace WindowsFormsApp1
         }
                         
         /// <summary>
-        /// 
+        /// Elimina las filas seleccionadas del dataGridView
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -253,7 +241,7 @@ namespace WindowsFormsApp1
         }
               
         /// <summary>
-        /// 
+        /// Instancia e inicializa un nuevo hilo
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -261,36 +249,41 @@ namespace WindowsFormsApp1
         {
             hilo = new Thread(new ThreadStart(TextoHilo));
             hilo.Start();
-            Thread.Sleep(10);            
+            Thread.Sleep(50);            
         }
-
+        /// <summary>
+        /// Metodo que invoca al hilo
+        /// </summary>
+        /// <param name="text"></param>
         private void VerificarFuncionamiento(string text)
         {
-            if (txtBox1.InvokeRequired)
+            if(txtBox1.InvokeRequired)
             {
-                var d = new DeleagadoDeTexto(VerificarFuncionamiento);
-                txtBox1.Invoke(d, new object[] { text });
+                var verificarHilo = new DeleagadoDeTexto(VerificarFuncionamiento);
+                txtBox1.Invoke(verificarHilo, new object[] {text});
             }
             else
             {
                 txtBox1.Text = text;
             }
         }
+        /// <summary>
+        /// Metodo que llama al verificar desde TextoHilo
+        /// </summary>
         private void TextoHilo()
         {
             VerificarFuncionamiento("Este texto se ha escrito correctamente");
         }
         /// <summary>
-        /// 
-        /// </summary>
-       
+        /// Metodo que actualiza los datos, los pones en null y actualizar el dataGridView con los datos actuales que fueron fabricados
+        /// </summary>       
         private void ActualizarData()
         {
             this.dataGridView1.DataSource = null;            
             this.dataGridView1.DataSource = miFabrica.Bicicletas;            
         }
         /// <summary>
-        /// Evento que hace la conexion y agrega al metodo TraerDatos desde el SQL Server
+        /// Evento que guarda los datos del dataGridView fabricados a la base de datos de SQL Server
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -301,11 +294,8 @@ namespace WindowsFormsApp1
             this.da.InsertCommand.Parameters.Add("@Ruedas", SqlDbType.VarChar, 50, "Ruedas");
             this.da.InsertCommand.Parameters.Add("@Marca", SqlDbType.VarChar, 50, "Marca");
             this.da.InsertCommand.Parameters.Add("@NumeroSerie", SqlDbType.VarChar, 50, "NumeroSerie");
-            
-            List<DataRow> listaBicis = new List<DataRow>();
-            DataRow fila2 = this.dt.NewRow();
-            
-            
+                        
+            DataRow fila2 = this.dt.NewRow();                        
             
             foreach(Bicicleta item in miFabrica.Bicicletas)
             {                

@@ -23,19 +23,19 @@ namespace UnitTest
         /// <summary>
         /// Verifica que la lista de las bicicletas no estén vacias y no sea nula
         /// </summary>
-        /*
+        
         [TestMethod]
 
        
         public void Bicis_No_Vacia()
         {
-            Fabrica fabrica1 = new Fabrica(5);
+            Fabrica<Bicicleta> fabrica1 = new Fabrica<Bicicleta>(5);
             BiciCarrera biciCarrera1 = new BiciCarrera("Negro", "Shimano", "Specialized");
 
             fabrica1 += biciCarrera1;
             Assert.IsNotNull(fabrica1.Bicicletas);
             Assert.IsTrue(fabrica1.Bicicletas.Count > 0);
-        }*/
+        }
         
     }
 }

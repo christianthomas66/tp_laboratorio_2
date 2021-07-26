@@ -9,12 +9,7 @@ namespace Entidades
 {
     public class BiciMontaña : Bicicleta
     {
-        private NumeroDeSerie numeroDeSerie;
-        /// <summary>
-        /// Enumerados
-        /// </summary>
-        
-
+        private NumeroDeSerie numeroDeSerie;                
         /// <summary>
         /// Propiedad del enum que obtiene y settea el enumerado
         /// </summary>
@@ -23,8 +18,7 @@ namespace Entidades
             get 
             {                
                 return Enum.GetName(typeof(NumeroDeSerie), this.numeroDeSerie); 
-            }
-            //set { this.numeroDeSerie = value; }
+            }            
         }        
         /// <summary>
         /// Constructor por default de BiciMontaña
@@ -42,8 +36,7 @@ namespace Entidades
         /// <param name="numeroDeSerie"></param>
         public BiciMontaña(string color, string ruedas, string marca, NumeroDeSerie numeroDeSerie): base(color, ruedas, marca)            
         {
-            this.numeroDeSerie = numeroDeSerie;
-            this.factura = (int)numeroDeSerie;
+            this.numeroDeSerie = numeroDeSerie;           
         }
 
         /// <summary>
@@ -55,7 +48,6 @@ namespace Entidades
             StringBuilder string1 = new StringBuilder();
             string1.AppendLine($"La bicicleta fabricada es:\nBicicleta Montaña y sus datos son: {base.Mostrar()}");                        
             string1.AppendLine($"Su numero de serie es: {this.numeroDeSerie}");
-
             return string1.ToString();
         }
 

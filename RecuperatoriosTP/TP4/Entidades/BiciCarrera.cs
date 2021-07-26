@@ -37,8 +37,7 @@ namespace Entidades
         /// <param name="ruedas"></param>
         /// <param name="marca"></param>
         public BiciCarrera(string color, string ruedas, string marca) : base(color, ruedas, marca)
-        {
-            this.factura = (int)NumeroDeSerie.Sin_serie;
+        {          
         }
 
         /// <summary>

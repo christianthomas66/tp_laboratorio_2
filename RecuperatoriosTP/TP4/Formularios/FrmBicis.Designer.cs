@@ -60,7 +60,7 @@ namespace WindowsFormsApp1
             this.btnFabricar.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
             this.btnFabricar.Font = new System.Drawing.Font("Comic Sans MS", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFabricar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnFabricar.Location = new System.Drawing.Point(12, 265);
+            this.btnFabricar.Location = new System.Drawing.Point(12, 271);
             this.btnFabricar.Name = "btnFabricar";
             this.btnFabricar.Size = new System.Drawing.Size(241, 68);
             this.btnFabricar.TabIndex = 0;
@@ -78,7 +78,7 @@ namespace WindowsFormsApp1
             "Scott",
             "Trek",
             "Giant"});
-            this.cmbMarca.Location = new System.Drawing.Point(12, 210);
+            this.cmbMarca.Location = new System.Drawing.Point(12, 216);
             this.cmbMarca.Name = "cmbMarca";
             this.cmbMarca.Size = new System.Drawing.Size(110, 27);
             this.cmbMarca.TabIndex = 10;
@@ -99,7 +99,7 @@ namespace WindowsFormsApp1
             "Marrón",
             "Violeta",
             "Naranja"});
-            this.cmbColor.Location = new System.Drawing.Point(12, 124);
+            this.cmbColor.Location = new System.Drawing.Point(12, 130);
             this.cmbColor.Name = "cmbColor";
             this.cmbColor.Size = new System.Drawing.Size(91, 27);
             this.cmbColor.TabIndex = 11;
@@ -114,7 +114,7 @@ namespace WindowsFormsApp1
             "Zipp",
             "Supra",
             "HED"});
-            this.cmbRuedas.Location = new System.Drawing.Point(137, 124);
+            this.cmbRuedas.Location = new System.Drawing.Point(137, 130);
             this.cmbRuedas.Name = "cmbRuedas";
             this.cmbRuedas.Size = new System.Drawing.Size(107, 27);
             this.cmbRuedas.TabIndex = 12;
@@ -124,7 +124,7 @@ namespace WindowsFormsApp1
             this.LblTituloFábricaBici.AutoSize = true;
             this.LblTituloFábricaBici.BackColor = System.Drawing.Color.Transparent;
             this.LblTituloFábricaBici.Font = new System.Drawing.Font("Impact", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTituloFábricaBici.Location = new System.Drawing.Point(301, 9);
+            this.LblTituloFábricaBici.Location = new System.Drawing.Point(301, 15);
             this.LblTituloFábricaBici.Name = "LblTituloFábricaBici";
             this.LblTituloFábricaBici.Size = new System.Drawing.Size(423, 60);
             this.LblTituloFábricaBici.TabIndex = 13;
@@ -136,7 +136,7 @@ namespace WindowsFormsApp1
             this.LblColor.BackColor = System.Drawing.Color.Maroon;
             this.LblColor.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblColor.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LblColor.Location = new System.Drawing.Point(26, 92);
+            this.LblColor.Location = new System.Drawing.Point(26, 98);
             this.LblColor.Name = "LblColor";
             this.LblColor.Size = new System.Drawing.Size(65, 29);
             this.LblColor.TabIndex = 14;
@@ -147,7 +147,7 @@ namespace WindowsFormsApp1
             this.LblRuedas.AutoSize = true;
             this.LblRuedas.BackColor = System.Drawing.Color.Maroon;
             this.LblRuedas.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRuedas.Location = new System.Drawing.Point(142, 92);
+            this.LblRuedas.Location = new System.Drawing.Point(142, 98);
             this.LblRuedas.Name = "LblRuedas";
             this.LblRuedas.Size = new System.Drawing.Size(86, 29);
             this.LblRuedas.TabIndex = 15;
@@ -158,7 +158,7 @@ namespace WindowsFormsApp1
             this.LblMarca.AutoSize = true;
             this.LblMarca.BackColor = System.Drawing.Color.Maroon;
             this.LblMarca.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMarca.Location = new System.Drawing.Point(26, 178);
+            this.LblMarca.Location = new System.Drawing.Point(26, 184);
             this.LblMarca.Name = "LblMarca";
             this.LblMarca.Size = new System.Drawing.Size(75, 29);
             this.LblMarca.TabIndex = 16;
@@ -168,7 +168,7 @@ namespace WindowsFormsApp1
             // 
             this.btnLimpiar.BackColor = System.Drawing.Color.Maroon;
             this.btnLimpiar.Font = new System.Drawing.Font("Comic Sans MS", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiar.Location = new System.Drawing.Point(12, 339);
+            this.btnLimpiar.Location = new System.Drawing.Point(12, 345);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(241, 68);
             this.btnLimpiar.TabIndex = 23;
@@ -182,7 +182,7 @@ namespace WindowsFormsApp1
             this.LblNumeroSerie.BackColor = System.Drawing.Color.Maroon;
             this.LblNumeroSerie.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNumeroSerie.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LblNumeroSerie.Location = new System.Drawing.Point(132, 178);
+            this.LblNumeroSerie.Location = new System.Drawing.Point(132, 184);
             this.LblNumeroSerie.Name = "LblNumeroSerie";
             this.LblNumeroSerie.Size = new System.Drawing.Size(118, 26);
             this.LblNumeroSerie.TabIndex = 24;
@@ -198,7 +198,7 @@ namespace WindowsFormsApp1
             "Serie_1",
             "Serie_2",
             "Serie_3"});
-            this.cmbNumeroSerie.Location = new System.Drawing.Point(128, 210);
+            this.cmbNumeroSerie.Location = new System.Drawing.Point(128, 216);
             this.cmbNumeroSerie.Name = "cmbNumeroSerie";
             this.cmbNumeroSerie.Size = new System.Drawing.Size(122, 27);
             this.cmbNumeroSerie.TabIndex = 25;
@@ -207,7 +207,7 @@ namespace WindowsFormsApp1
             // 
             this.btnSalir.BackColor = System.Drawing.Color.Maroon;
             this.btnSalir.Font = new System.Drawing.Font("Comic Sans MS", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(12, 415);
+            this.btnSalir.Location = new System.Drawing.Point(12, 421);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(241, 68);
             this.btnSalir.TabIndex = 26;
@@ -217,10 +217,10 @@ namespace WindowsFormsApp1
             // 
             // rtbBicisFabricadas
             // 
-            this.rtbBicisFabricadas.Location = new System.Drawing.Point(15, 25);
+            this.rtbBicisFabricadas.Location = new System.Drawing.Point(20, 25);
             this.rtbBicisFabricadas.Name = "rtbBicisFabricadas";
             this.rtbBicisFabricadas.ReadOnly = true;
-            this.rtbBicisFabricadas.Size = new System.Drawing.Size(425, 198);
+            this.rtbBicisFabricadas.Size = new System.Drawing.Size(434, 206);
             this.rtbBicisFabricadas.TabIndex = 27;
             this.rtbBicisFabricadas.Text = "";
             // 
@@ -228,9 +228,9 @@ namespace WindowsFormsApp1
             // 
             this.groupBoxBicisFabricadas.Controls.Add(this.rtbBicisFabricadas);
             this.groupBoxBicisFabricadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxBicisFabricadas.Location = new System.Drawing.Point(284, 92);
+            this.groupBoxBicisFabricadas.Location = new System.Drawing.Point(270, 98);
             this.groupBoxBicisFabricadas.Name = "groupBoxBicisFabricadas";
-            this.groupBoxBicisFabricadas.Size = new System.Drawing.Size(459, 241);
+            this.groupBoxBicisFabricadas.Size = new System.Drawing.Size(473, 252);
             this.groupBoxBicisFabricadas.TabIndex = 28;
             this.groupBoxBicisFabricadas.TabStop = false;
             this.groupBoxBicisFabricadas.Text = "Bicicletas fabricadas";
@@ -238,20 +238,20 @@ namespace WindowsFormsApp1
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(749, 92);
+            this.dataGridView1.Location = new System.Drawing.Point(749, 98);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(375, 391);
+            this.dataGridView1.Size = new System.Drawing.Size(362, 391);
             this.dataGridView1.TabIndex = 31;
             // 
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Maroon;
-            this.btnEliminar.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnEliminar.Location = new System.Drawing.Point(866, 48);
+            this.btnEliminar.Location = new System.Drawing.Point(933, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(150, 38);
+            this.btnEliminar.Size = new System.Drawing.Size(178, 38);
             this.btnEliminar.TabIndex = 33;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
@@ -260,11 +260,11 @@ namespace WindowsFormsApp1
             // btnTraerDatos
             // 
             this.btnTraerDatos.BackColor = System.Drawing.Color.Maroon;
-            this.btnTraerDatos.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTraerDatos.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTraerDatos.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnTraerDatos.Location = new System.Drawing.Point(787, 3);
+            this.btnTraerDatos.Location = new System.Drawing.Point(749, 2);
             this.btnTraerDatos.Name = "btnTraerDatos";
-            this.btnTraerDatos.Size = new System.Drawing.Size(150, 39);
+            this.btnTraerDatos.Size = new System.Drawing.Size(178, 38);
             this.btnTraerDatos.TabIndex = 35;
             this.btnTraerDatos.Text = "Traer datos";
             this.btnTraerDatos.UseVisualStyleBackColor = false;
@@ -274,7 +274,7 @@ namespace WindowsFormsApp1
             // 
             this.btnHilos.BackColor = System.Drawing.Color.Maroon;
             this.btnHilos.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHilos.Location = new System.Drawing.Point(372, 339);
+            this.btnHilos.Location = new System.Drawing.Point(370, 373);
             this.btnHilos.Name = "btnHilos";
             this.btnHilos.Size = new System.Drawing.Size(248, 81);
             this.btnHilos.TabIndex = 37;
@@ -289,11 +289,11 @@ namespace WindowsFormsApp1
             // btnGuardarEnBaseDeDatos
             // 
             this.btnGuardarEnBaseDeDatos.BackColor = System.Drawing.Color.Maroon;
-            this.btnGuardarEnBaseDeDatos.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarEnBaseDeDatos.Font = new System.Drawing.Font("Comic Sans MS", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarEnBaseDeDatos.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnGuardarEnBaseDeDatos.Location = new System.Drawing.Point(943, 3);
+            this.btnGuardarEnBaseDeDatos.Location = new System.Drawing.Point(749, 46);
             this.btnGuardarEnBaseDeDatos.Name = "btnGuardarEnBaseDeDatos";
-            this.btnGuardarEnBaseDeDatos.Size = new System.Drawing.Size(150, 39);
+            this.btnGuardarEnBaseDeDatos.Size = new System.Drawing.Size(362, 46);
             this.btnGuardarEnBaseDeDatos.TabIndex = 38;
             this.btnGuardarEnBaseDeDatos.Text = "Guardar en la base de datos";
             this.btnGuardarEnBaseDeDatos.UseVisualStyleBackColor = false;
@@ -304,7 +304,7 @@ namespace WindowsFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1136, 495);
+            this.ClientSize = new System.Drawing.Size(1136, 501);
             this.Controls.Add(this.btnGuardarEnBaseDeDatos);
             this.Controls.Add(this.btnHilos);
             this.Controls.Add(this.btnLimpiar);

@@ -47,7 +47,6 @@
     <Compile Include="Fabrica.cs" />
     <Compile Include="BiciMontaña.cs" />
     <Compile Include="FabricaExcepcion.cs" />
-    <Compile Include="FalloConsolaExcepcion.cs" />
     <Compile Include="IDeserializa.cs" />
     <Compile Include="ISerializa.cs" />
     <Compile Include="MetodoExtension.cs" />

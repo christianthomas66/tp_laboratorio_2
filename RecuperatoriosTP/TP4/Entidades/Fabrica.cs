@@ -36,13 +36,14 @@ namespace Entidades
         {
             get => this.miListaBicis;                  
         }
-
+        /// <summary>
+        /// Propiedad de las bicicletas
+        /// </summary>
         public List<Bicicleta> Bicicleta 
         { 
             get; 
             set;
         }
-
 
         /// <summary>
         /// Constructor que instancia la lista de bicicletas

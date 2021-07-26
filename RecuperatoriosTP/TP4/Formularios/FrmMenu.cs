@@ -16,18 +16,14 @@ namespace WindowsFormsApp1
 {
     public partial class FrmMenu : Form
     {
-        public static Fabrica<Bicicleta> miFabrica;       
-        //private BiciCarrera biciCarrera;
-        //private BiciMontaña biciMontaña;
+        public static Fabrica<Bicicleta> miFabrica;               
         DocumentoXML serializadorFrm;
         List<BiciMontaña> miListaXML;
-        //FrmBicis frmBicis;
-
+        
         private SqlConnection cn;
         private SqlDataAdapter da;
         private DataTable dt;
-        
-        
+                
         /// <summary>
         /// Constructor por default del tipo FrmMenu
         /// </summary>
@@ -36,8 +32,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
             miFabrica = new Fabrica<Bicicleta>(3);
             serializadorFrm = new DocumentoXML();
-            miListaXML = new List<BiciMontaña>();
-            //frmBicis = new FrmBicis();
+            miListaXML = new List<BiciMontaña>();            
         }
         /// <summary>
         /// Botón que inicia el 2do formulario de la fábrica de bicis
@@ -45,7 +40,6 @@ namespace WindowsFormsApp1
         /// <param name="sender"></param>
         /// <param name="e"></param>
        
-
         private void btnFabrica_Click(object sender, EventArgs e)
         {
             FrmBicis bicisForm = new FrmBicis(miFabrica);
@@ -61,16 +55,7 @@ namespace WindowsFormsApp1
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-        /// <summary>
-        /// Evento que llama a btnCargarXML_Click
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void FrmMenu_Load(object sender, EventArgs e)
-        {
-            //btnCargarXML_Click(sender, e);
-        }
+        }               
         /// <summary>
         /// Botón que guarda los datos en un nuevo documento XML
         /// </summary>
@@ -100,11 +85,6 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("No se pudo serializar el archivo!!! : " + excepcion.Message);
             }                        
-        }       
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>            
+        }                         
     }
 }

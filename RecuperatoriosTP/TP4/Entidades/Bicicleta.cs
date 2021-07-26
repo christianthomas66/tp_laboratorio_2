@@ -11,20 +11,20 @@ namespace Entidades
 {
     [XmlInclude(typeof(BiciMontaña))]   
     public abstract class Bicicleta
-    {                
-        
+    {                        
         private string color;
         private string ruedas;
         private string marca;
-        private int id;
-        public double factura;
-
+        private int id;       
+        /// <summary>
+        /// Enumerados
+        /// </summary>
         public enum NumeroDeSerie
         {
-            Sin_serie = 4800,
-            Serie_1 = 5000,
-            Serie_2 = 6000,
-            Serie_3 = 7000
+            Sin_serie,
+            Serie_1, 
+            Serie_2,
+            Serie_3
         }
 
         /// <summary>
@@ -48,14 +48,44 @@ namespace Entidades
         /// <summary>
         /// Propiedad que obtiene y settea el color
         /// </summary>
-        public string Color { get{return this.color;} set{this.color = value;}}
+        public string Color
+        { 
+            get
+            {
+                return this.color;
+            } 
+            set
+            {
+                this.color = value;
+            }
+        }
         /// <summary>
         /// Propiedad que obtiene y settea las ruedas
-        public string Ruedas { get{return this.ruedas;} set{this.ruedas = value;}}
+        public string Ruedas 
+        { 
+            get
+            {
+                return this.ruedas;
+            } 
+            set
+            {
+                this.ruedas = value;
+            }
+        }
         /// <summary>
         /// Propiedad que obtiene la marca
         /// </summary>
-        public string Marca {get {return this.marca;} set{this.marca = value;}}
+        public string Marca 
+        {
+            get
+            {
+                return this.marca;
+            } 
+            set
+            {
+                this.marca = value;
+            }
+        }
 
 
         public abstract string Serie

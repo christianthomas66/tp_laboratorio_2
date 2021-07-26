@@ -38,7 +38,7 @@ namespace WindowsFormsApp1
             // btnFabrica
             // 
             this.btnFabrica.BackColor = System.Drawing.Color.Maroon;
-            this.btnFabrica.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFabrica.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFabrica.Location = new System.Drawing.Point(101, 28);
             this.btnFabrica.Name = "btnFabrica";
             this.btnFabrica.Size = new System.Drawing.Size(258, 88);
@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
             // btnGuardarXML
             // 
             this.btnGuardarXML.BackColor = System.Drawing.Color.Maroon;
-            this.btnGuardarXML.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarXML.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarXML.Location = new System.Drawing.Point(101, 128);
             this.btnGuardarXML.Name = "btnGuardarXML";
             this.btnGuardarXML.Size = new System.Drawing.Size(258, 92);
@@ -62,7 +62,7 @@ namespace WindowsFormsApp1
             // btnSalir
             // 
             this.btnSalir.BackColor = System.Drawing.Color.Maroon;
-            this.btnSalir.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.Location = new System.Drawing.Point(101, 237);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(258, 92);
@@ -84,7 +84,6 @@ namespace WindowsFormsApp1
             this.Name = "FrmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menú";
-            this.Load += new System.EventHandler(this.FrmMenu_Load);
             this.ResumeLayout(false);
 
         }
